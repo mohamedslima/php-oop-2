@@ -12,7 +12,7 @@ class animalGame extends Product {
 
     public function printInfo()
     {
-        return "$this->brand_name $this->type $this->price. tipo di gioco: $this->animal_game";
+        return "$this->brand_name. Tipologia: $this->type. € $this->price. Tipo di gioco: $this->animal_game";
     }
 }
 ?>
