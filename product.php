@@ -3,6 +3,7 @@ class Product {
     public $brand_name;
     public $type;
     public $price;
+    public $in_stock = true;
 
     function __construct($_brand_name, $_type, $_price)
     {

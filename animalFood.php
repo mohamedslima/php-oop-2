@@ -11,6 +11,6 @@ class animalFood extends Product {
     }
 
     public function printInfo() {
-        return "$this->brand_name. Tipologia: $this->type. € $this->price. Per: $this->for_animals";
+        return "$this->brand_name <br> Tipologia: $this->type <br> € $this->price <br> Per: $this->for_animals";
     }
 }
